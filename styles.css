@@ -1,0 +1,144 @@
+
+table{
+    position: left;
+    height : 20px;
+    background-color: 	#20B2AA;
+}
+/*   CSS Syntax    */
+h1{
+    color : #B8860B ;
+    background-color: #DEB887;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 200;
+    border-radius: 50;
+}
+
+/*  CSS Selector   */
+
+h2.center{
+    text-align: center;
+    color : 	#FF7F50 ;
+    font-weight: 300;
+    background-color: cadetblue;
+    line-height: 30px;
+}
+
+/* CSS Pseudo-class */
+
+p{
+    background-color: cornsilk;
+    color : black;
+    text-align: center;
+
+}
+
+p:hover{
+    background-color: crimson;
+}
+
+
+/*CSS Pseudo-element */
+
+p::first-line{
+    color : salmon; 
+
+
+    
+}
+
+h1::first-line{
+    color : 	#8B008B;
+}
+
+/*CSS box model */
+
+p{
+    width: 320px;
+    padding: 10px;
+    border: 50px;
+    margin: 50px;
+}
+
+/* CSS display */
+
+h2.hidden{
+    visibility: hidden;
+    position: relative;
+}
+
+h2{
+    color : 	#4B0082;
+    background-color: 	#F0E68C;
+    font-size: 40px;
+    margin : 0 auto 25px auto;
+    text-transform: uppercase;
+}
+
+/* CSS Position */
+
+h3.relative{
+    position: relative;
+    top : 40px;
+    right: 30px;
+    left: 30px;
+    background-color: 	#DDA0DD;
+    font-size: 5rem;
+    color : 	#800000;
+}
+
+/* CSS Unit */
+
+h1{
+    font-size: 3em;
+
+}
+
+h2{
+    font-size: 4rem;
+}
+
+/* Website Responsive */
+
+@media screen and (max-width : 1000px){
+    p{
+        width : 100%;
+        
+    }
+
+    h1{
+        width : 100%
+    }
+
+    h2{
+        width : 100%
+    }
+
+    h3.relative{
+        width : 100%
+    }
+
+    h2.hidden{
+        width : 100%
+    }
+
+    h2.center{
+        width : 100%
+    }
+
+    tabel{
+        width : 100%
+    }
+
+}
+
+/* Flex Box */
+li{
+    background-color: 	#BDB76B;
+    width : 50%;
+    height : 450px;
+    border : 50px solid 	#ADFF2F;
+display : flex;
+flex-direction: row-reverse;
+
+}
+
